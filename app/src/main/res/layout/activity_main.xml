@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/l">
+
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="335dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_weight="25"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/boba" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="4"
+        android:background="@drawable/ovalo"
+        android:drawableLeft="@drawable/aea"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/user"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="35dp"
+        android:textColor="@color/white"
+        android:layout_weight="4"
+        android:background="@drawable/ovalo"
+        android:drawableLeft="@drawable/aea"
+        android:paddingLeft="15dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttoningresar"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="2dp"
+        android:layout_weight="4"
+        android:background="@drawable/boton_redondo"
+        android:backgroundTint="@color/bebe"
+        android:onClick="iniciarSesion"
+        android:text="@string/ingresar"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        app:backgroundTint="@color/cristhel" />
+
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="4"
+        android:textSize="19dp"
+        android:background="@drawable/boton_redondo"
+        android:text="Registrar"
+        app:backgroundTint="@color/cristhel"
+        android:onClick="irRegistrarse" android:clickable="true"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        >
+
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="30dp" />
+    </LinearLayout>
+
+</LinearLayout>

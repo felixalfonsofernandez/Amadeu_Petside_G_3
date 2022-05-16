@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Khaliko Petside</string>
+    <string name="user">Correo Electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="facebook_app_id">708598923151626</string>
+    <string name="fb_login_protocol_scheme">fb708598923151626</string>
+    <string name="passworda">Confirmar contraseña</string>
+    <string name="ingresar">ingresar</string>
+    <string name="registrar">registrar</string>
+    <string name="transtionname_picture">transitionnamepicture</string>
+    <string name="btn_registrar">siguiente</string>
+    <string name="tiene_mascota">¿Tiene mascota?</string>
+    <string-array name="mascota">
+        <item></item>
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Hamster</item>
+        <item>Conejo</item>
+        <item>Pez</item>
+        <item>Pajaro Domestico</item>
+        <item>Animal Exotico</item>
+    </string-array>
+
+    <string-array name="edad">
+        <item></item>
+        <item>Menos de 1 año</item>
+        <item>1 - 3 años</item>
+        <item>4 - 6 años</item>
+        <item>7 - 9 años</item>
+        <item>Más de 9 años</item>
+    </string-array>
+
+    <string-array name="edadd">
+        <item>-</item>
+        <item>Menos de 1 año</item>
+        <item>1 - 3 años</item>
+        <item>4 - 6 años</item>
+        <item>7 - 9 años</item>
+        <item>Más de 9 años</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+</resources>

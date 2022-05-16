@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eew">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Limpieza de la casa"
+        android:textColor="#424242"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="415dp"
+        android:layout_height="214dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186"
+        app:srcCompat="@drawable/gatohogar" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="338dp"
+        android:layout_height="310dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="#424242"
+                android:layout_marginTop="20dp"
+                android:fontFamily="casual"
+                android:justificationMode="inter_word"
+                android:text="Las mascotas nos da su cariño y su amor incondicional. Pero con ellas también van los pelos, los olores y otros pequeños inconvenientes. ¡Que no cunda el pánico! Hay formas de mantener tu casa limpia y a prueba de olores." />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="#424242"
+                android:fontFamily="serif-monospace"
+
+                android:gravity="center"
+                android:text="CONSEJOS"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="#424242"
+                android:layout_marginTop="20dp"
+                android:fontFamily="casual"
+                android:justificationMode="inter_word"
+                android:text="CASA Y MASCOTAS\n\n
+Disfrutar de una casa limpia y en la que se respire un ambiente fresco, al tiempo que disfrutas de tus mascotas y les permites campar a sus anchas, es posible si mantienes una buena higiene en el animal y el aseo de tu casa a punto.
+\n\nLIMPIEZA A FONDO\n\n
+Si tienes alfombras en casa, pon especial atención en su cuidado. Pasa la aspiradora cada dos días para eliminar el pelo y los restos de suciedad que provocan mal olor. Una vez cada quince días, cepíllalas con una mezcla de jabón neutro y agua o bien, con vinagre.
+\n\nUN AGRADABLE OLOR\n\n
+Existen velas antiolor especialmente diseñadas para combatir los aromas perrunos. Puedes encenderla diariamente un ratito mientras disfrutas de tu momento de sofá y mantita.
+\n\nUN AGRADABLE OLOR\n\n
+Existen velas antiolor especialmente diseñadas para combatir los aromas perrunos. Puedes encenderla diariamente un ratito mientras disfrutas de tu momento de sofá y mantita.
+\n\nSI TE ACURRUCAS CON ÉL\n\n
+Si los dejas subir a la cama o a los sillones, ten en cuenta que deberás sacudir estas superficies todos los días para retirar así los restos de pelo. Además, una vez por semana realizar una limpieza más a fondo lavando la ropa de cama y los sillones.
+\n\nCUIDA TODOS LOS DETALLES\n\n
+Además de poner atención en la limpieza de tu hogar y la de tu mascota, fíjate en la calidad de los alimentos que le das, procura que sean lo más naturales y saludables posible. Esto facilitará que sus digestiones sean buenas y que los olores disminuyan.
+\n\nMANTÉN SUS COSAS LIMPIAS\n\n
+Cada 15 días lava sus mantas, su camita e incluso los juguetes que utiliza tu mascota. Ahí se acumulan bacterias, babas, restos de pelo y de la suciedad que pueda traer de la calle.
+\n\n¡QUE CORRA EL AIRE!\n\n
+Es indispensable una buena ventilación, así que todas las mañanas abre de par en par las ventanas. Da igual si hace frío o calor, con 5 minutos será más que suficiente para reciclar el aire y que los malos olores salgan.
+\n\nUNA BUENA HIGIENE\n\n
+Es cierto que no es recomendable bañar a los perros con demasiada frecuencia, pero hay que hacerlo de promedio una vez al mes (depende de la raza y de lo delicada que sea su piel). Cepíllalo una vez por semana para eliminar pelo y piel muerta, cepíllale los dientes o dales golosinas especiales para limpiárselos.
+" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

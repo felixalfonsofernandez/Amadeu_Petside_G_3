@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eew">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#424242"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Contra los Malos Olores"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="410dp"
+        android:layout_height="217dp"
+        android:layout_marginEnd="1dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186"
+        app:srcCompat="@drawable/perroygato" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="338dp"
+        android:layout_height="310dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#424242"
+                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="casual"
+                android:justificationMode="inter_word"
+                android:text="El mal olor de un perro es una de las molestias más comunes que pueden causar a sus dueños; este mal olor se puede producir por varias razones, puede deberse a la piel grasa de nuestra mascota, por alguna dolencia o problema en sus glándulas anales o problemas de infecciones en la piel." />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:textColor="#424242"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif-monospace"
+
+                android:gravity="center"
+                android:text="CONSEJOS"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="#424242"
+                android:layout_marginTop="20dp"
+                android:fontFamily="casual"
+                android:justificationMode="inter_word"
+                android:text="USO DE VINAGRE\n\n
+Una alternativa recomendable y muy natural es una mezcla del champú de tu mascota con una taza de vinagre de manzana o vinagre blanco.
+Con esta mezcla lavarás a tu mascota, asegurándote de frotar el champú y el vinagre muy bien, es importante que después del baño, secar bien a tu perro ya que las bacterias se desarrollan fácilmente en una piel húmeda.
+\n\n USO DE AGUA OXIGENADA Y BICARBONATO\n\n
+Otro remedio contra el mal olor es mezclar un litro de agua oxigenada (3%) con 200 g de Bicarbonato y con una cucharada de champú de tu mascota. Si tu mascota es de talla grande se deben de duplicar estas cantidades.
+Se moja al animal con abundante agua y después se frota bien la solución, dejándola actuar durante 4 o 5 minutos, teniendo cuidado con los ojos. Una vez pasado el tiempo se enjuaga bien, profundamente y se seca totalmente al perro." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
